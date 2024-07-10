@@ -4,6 +4,7 @@ This directory has all the scripts used in the paper _Nonlinear effects of monet
 Most of the scripts have a description of their functionality but this document maps it succintly and build the big picture. For further technichal details please visit the paper at https://drive.google.com/file/d/1BppWeP3alIsoFAuQrQ94Bfpn-yujk_dA/view
 
 Python scripts
+
   Building dataset.ipynb
   This script mainly organizes the data extracted from the ECB forecasts.ipynb and refi.ipynb scripts in a convenient way so that we can apply the procedure described in Miranda-Agrippino and Ricco (2021) to clean the 
   high-frequency instrument through auxiliary regressions. Later on the script saves all the instruments using a convenient name to be used in the Matlab scripts that perform the nonlinear VAR estimations
