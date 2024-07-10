@@ -13,3 +13,6 @@ Most of the scripts have a description of their functionality but this document 
   This is the script where the actual values of forecasts are exctracted from the Refinitiv Datastream platform. We used this automation routine through pyautogui library because the Datastream software did not allow download of a large amount of data at once 
 
 ## **Matlab scripts**
+
+  -  **Graphs**: Folder with the scripts in the folder _aux codes_ to generate the plots used in the paper and auxiliary ones
+  -  **Aux codes**: Folder with the main functions used to estimate and plot the results. Documentation is written in each script separatedly
